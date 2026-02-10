@@ -227,13 +227,27 @@ export default function HeroCircuit() {
             </p>
 
             <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row gap-4 sm:gap-6 sm:justify-center md:justify-start">
-              <a className="w-full sm:w-[240px] md:w-[280px] rounded-xl py-4 font-semibold text-black bg-gradient-to-r from-orange-500 to-pink-500 shadow-lg shadow-orange-500/30" href="#project">
+              <a className="w-full text-center sm:w-[240px] md:w-[280px] rounded-xl py-4 font-semibold text-black bg-gradient-to-r from-orange-500 to-pink-500 shadow-lg shadow-orange-500/30" href="#project">
                 View Projects
               </a>
 
-              <button className="w-full sm:w-[240px] md:w-[280px] rounded-xl py-4 font-semibold text-white border border-orange-400/40 hover:bg-white/5 transition">
-                Get In Touch
-              </button>
+              <a
+  href="https://www.linkedin.com/in/rella-dinesh-82bb52283/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="
+    w-full sm:w-[240px] md:w-[280px]
+    rounded-xl py-4
+    font-semibold text-white
+    border border-orange-400/40
+    hover:bg-white/5
+    transition
+    inline-flex items-center justify-center
+  "
+>
+  Get In Touch
+</a>
+
             </div>
           </div>
 
